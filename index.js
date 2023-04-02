@@ -16,14 +16,14 @@ fetch('https://dog.ceo/api/breeds/image/random')
 
 function materializeRandomDogImg(data) {
     let Ul = document.getElementById("dog-image-list")
-    let ol = document.getElementById("dog-image")
     let dogImg = document.createElement("img")
     dogImg.src = data
-    dogImg.id = "image"
+    dogImg.id = "dog-image"
 
-    Ul.append(dogImg, ol)
+    console.log(data)
+
+    Ul.append(dogImg)
 }
-materializeRandomDogImg()
 }
 
 })
