@@ -10,7 +10,7 @@ html, body {
     min-height: 100vh;
     margin: 0;
     padding: 0;
-    background-image: url('C:/Users/marti/Pictures/angel-luciano-LATYeZyw88c-unsplash.jpg');
+    background-image: url('C:/Users/marti/Pictures/zac-gudakov--UHyhmRhzrU-unsplash.jpg');
     background-size:cover;
 }
 
@@ -19,22 +19,28 @@ html, body {
     text-align: center;
     padding: 20px;
     border-bottom: solid;
-    border-bottom-color: green;
+    border-bottom-color: rgb(0, 0, 0);
+    border-bottom: solid 5px rgb(0, 0, 0)
 }
 
 #searchbar {
     border-radius: 25px;
     padding: 20px;
-    width: 130px;
-    height: 0px;
-    background-color: rgb(255, 255, 255);
-    border-color: rgb(0, 0, 0); 
+    width: 140px;
+    height: 5px;
+    background-color: #ffffff;
+    border: solid rgb(0, 0, 0); 
+}
+
+#searchbar:hover {
+  background-color: #c1c1c1;
 }
 
 #magnifying-glass {
+    border: solid rgb(0, 0, 0); 
     border-radius: 25px;
-    width: 40px;
-    height: 35px;
+    width: 50px;
+    height: 45px;
     background-color: #ffffff;
 }
 
@@ -44,6 +50,10 @@ html, body {
   -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
   box-shadow: inset 0px 0px 5px #c1c1c1;
   outline: none;
+}
+
+#magnifying-glass:hover {
+  background-color: #c1c1c1;
 }
 
 #nav-bar {
@@ -63,13 +73,9 @@ html, body {
   }
   
 #nav-bar a.active{
-    background-color: green;
+    background-color: rgb(1, 1, 0);
     color: white;
   }
-
-span {
-    content: "\2764";
-}
 
 #dog-image-list {
   display: flex;
@@ -80,4 +86,26 @@ span {
   border-radius: 45px;
   border-style: solid;
   border-color: rgb(213, 123, 5);
+}
+
+#question-mark {
+  border-radius: 20px;
+  padding: 20px;
+  width: 200px;
+  height: 50px;
+  border: solid #000000;
+  line-height: 1px;
+  background-color: #ffffff;
+}
+
+#question-mark:active {
+  background: #e5e5e5;
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+  -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+  box-shadow: inset 0px 0px 5px #c1c1c1;
+  outline: none;
+}
+
+#question-mark:hover {
+  background-color: #c1c1c1;
 }

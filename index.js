@@ -1,14 +1,13 @@
 document.addEventListener("DOMContentLoaded", () => {
 
-const searchButton = document.getElementById("search-form")
+const randomButton = document.getElementById("random-generate")
 
 
 
-searchButton.addEventListener("submit", fetchRandomDog)
+randomButton.addEventListener("submit", fetchRandomDog)
 
 function fetchRandomDog(e) {
     e.preventDefault()
-    const searchValue = e.target.search.value
 
 fetch('https://dog.ceo/api/breeds/image/random')
 .then(res => res.json())
@@ -25,6 +24,12 @@ function materializeRandomDogImg(data) {
     Ul.append(dogImg)
 }
 }
+
+
+
+
+
+
 
 })
 
