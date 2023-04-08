@@ -174,3 +174,8 @@ html, body {
 .or-text {
   line-height: 1px;
 }
+
+#breedListDropdown {
+  max-height: 260px;
+  overflow-y: scroll;
+}
