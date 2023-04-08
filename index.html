@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Pup-o-mania</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,38 +12,47 @@
 <body>
     <div id="main">
         <div id="header" >
-            <h1>Pup-a-mania!</h1>
-            <form id="search-form">
-                <input type="text" id="searchbar" name="search" placeholder="Search breed...">
-                <button type="submit" id="magnifying-glass">&#x1F50E;</button>
-                <p><strong>OR</strong></p>
-            </form>
+        <h1>Pup-a-mania!</h1>
+            <div id="container-div">
+                <form id="dropdown-form">
+                    <div class="breed-dropdown">
+                        <button id="dropbtn" class="dropbtn">Browse and select breed!</button>
+                        <div id="breedListDropdown" class="breed-dropdown-content">
 
-            <form id="random-generate">
-                <button type="submit" id="question-mark">? Random breed ?</button>
-            </form>
+                        </div>
+                    </div>
+                </form>
+
+                <p class="or-text"><strong>OR</strong></p>
+
+                <form id="search-form">
+
+                    <input type="text" id="searchbar" name="search" placeholder="Search breed...">
+                    <button type="submit" id="magnifying-glass">&#x1F50E;</button>
+
+                </form>
+
+                <p class="or-text"><strong>OR</strong></p>
+
+                <form id="random-generate">
+                    <button type="submit" id="question-mark">? Random breed ?</button>
+                </form>
+            </div>
+                
         </div>
-
 
         <div id="nav-bar">
-            <a href="#" class="active">Menu</a>
-            <a href="#">Pictures &#128247;</a>
-            <a href="#">Breed Information &#128214;</a>
-            <a href="#">How to care &#10084;&#65039;</a>
-            <a href="#">More! &#10133;</a>
+            <a class="active">Menu</a>
+            <a href="#" class="options">Pictures &#128247;</a>
+            <a href="#" class="options">Breed Information &#128214;</a>
+            <a href="#" class="options">How to care &#10084;&#65039;</a>
+            <a href="#" class="options">More! &#10133;</a>
         </div>
-
 
             <ul id="dog-image-list">
                 <ol>
                 </ol>
             </ul>
-
-
-
-
-
-
 
     </div>
     

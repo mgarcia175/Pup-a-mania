@@ -42,6 +42,7 @@ html, body {
     width: 50px;
     height: 45px;
     background-color: #ffffff;
+    line-height: 1px;
 }
 
 #magnifying-glass:active {
@@ -58,23 +59,27 @@ html, body {
 
 #nav-bar {
     width: 250px;
+    background-color: #ffffff;
   }
   
-#nav-bar a{
-    background-color: #eee;
+#nav-bar a.options{
+    background-color: #ffffff;
     color: black;
     display: block;
     padding: 12px;
     text-decoration: none;
   }
   
-#nav-bar a:hover{
+#nav-bar a.options:hover {
     background-color: #ccc;
+    border-radius: 30px;
   }
   
 #nav-bar a.active{
     background-color: rgb(1, 1, 0);
     color: white;
+    display: block;
+    padding: 12px;
   }
 
 #dog-image-list {
@@ -95,7 +100,7 @@ html, body {
   height: 50px;
   border: solid #000000;
   line-height: 1px;
-  background-color: #ffffff;
+  background-color: #06fc0a;
 }
 
 #question-mark:active {
@@ -107,5 +112,65 @@ html, body {
 }
 
 #question-mark:hover {
-  background-color: #c1c1c1;
+  background-color: #10a621;
+}
+
+.dropbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+.breed-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.show {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  width: 100%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 20px;
+}
+
+.show a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border-radius: 90px;
+}
+
+.show a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display:block;
+}
+
+.breed-dropdown-content {
+  display: none;
+}
+
+#container-div {
+  display: flex;
+  justify-content: center;
+  gap: 45px;
+  padding-top: 55px;
+}
+
+.or-text {
+  line-height: 1px;
 }
