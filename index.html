@@ -12,24 +12,22 @@
 <body>
     <div id="main">
         <div id="header" >
-        <h1>Pup-a-mania!</h1>
+        <h1 id="title">Pup-a-mania!</h1>
             <div id="container-div">
-                <form id="dropdown-form">
-                    <div class="breed-dropdown">
-                        <button id="dropbtn" class="dropbtn">Browse and select breed!</button>
-                        <div id="breedListDropdown" class="breed-dropdown-content">
-
-                        </div>
-                    </div>
+                
+                <form id="breed-form">
+                    <label for="breeds"></label>
+                    <select name="breeds" id="breedListDropdown">
+                        <option value="" disabled selected>Browse and select breed!</option>
+                    </select>
+                    <input id="submit-button" type="submit" value="Submit">
                 </form>
 
                 <p class="or-text"><strong>OR</strong></p>
 
                 <form id="search-form">
-
                     <input type="text" id="searchbar" name="search" placeholder="Search breed...">
                     <button type="submit" id="magnifying-glass">&#x1F50E;</button>
-
                 </form>
 
                 <p class="or-text"><strong>OR</strong></p>

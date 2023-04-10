@@ -23,8 +23,8 @@ function materializeRandomDogImg(data) {
 }
 }
 
-//Loops for every breed name and capitalizes first letter//
-function fetchBreedNames() {
+//Loops for every breed name//
+function fetchAllBreedNames() {
 fetch('https://dog.ceo/api/breeds/list/all')
 .then(res => res.json())
 .then(data => materializeBreedNames(data.message))
@@ -33,34 +33,75 @@ fetch('https://dog.ceo/api/breeds/list/all')
 function materializeBreedNames(data) {
 
     for(let breed in data) {
-      let dropDown = document.getElementById("breedListDropdown")
+
+      //Capitalized first letter in breed
       const breedName = (breed[0].toUpperCase() + breed.substring(1))
-      let breedCount = document.createElement("a")
-      breedCount.href = "#"
+      //Capitalized first letter in breed
+
+      let dropDown = document.getElementById("breedListDropdown")
+      let breedCount = document.createElement("option")
+      breedCount.value = breedName
+
       breedCount.innerHTML = breedName
 
       dropDown.append(breedCount)
-
-
     }
 }
+fetchAllBreedNames()
+//Loops for every breed name//
 
-fetchBreedNames()
-//Loops for every breed name and capitalizes first letter//
+//Dropdown breed fetch
+let form = document.getElementById("breed-form")
 
-//Function for dropdown
-let dropdwnButton = document.getElementById("dropbtn")
-let breedList = document.getElementById("breedListDropdown")
+form.addEventListener('submit', fetchBreedName)
 
-dropdwnButton.addEventListener("click", function() {
-  if(breedList.className === "breed-dropdown-content") {
-    breedList.className = "show"
-  } else if (breedList.className === "show") {
-    breedList.className = "breed-dropdown-content"
-  }
+function fetchBreedName(e) {
+  e.preventDefault()
+  let chosenBreed = document.getElementById("breedListDropdown")
+  let breedName = chosenBreed.value
+  breedName = breedName[0].toLowerCase() + breedName.substring(1)
+  
+  fetch(`https://dog.ceo/api/breed/${breedName}/images`)
+  .then(res => res.json())
+  .then(data => materializeChosenBreedImage(data.message[0]))
+}
 
-})
-//Function for dropdown
+function materializeChosenBreedImage(BreedImageUrl) {
+  let dogImageList = document.getElementById("dog-image-list")
+  let dogImage = document.createElement("img")
+  dogImage.src = BreedImageUrl
+  dogImage.id = "dog-image"
+
+  dogImageList.append(dogImage)
+}
+//Dropdown breed fetch
+
+//Search breed fetch
+let searchForm = document.getElementById("search-form")
+searchForm.addEventListener("submit", fetchSearchedBreed)
+
+function fetchSearchedBreed(e) {
+  e.preventDefault()
+
+  let searchValue = document.getElementById("searchbar")
+
+  let breedName = searchValue.value
+
+  fetch(`https://dog.ceo/api/breed/${breedName}/images`)
+  .then(res => res.json())
+  .then(data => materializeSearchedBreed(data.message[0]))
+
+  function materializeSearchedBreed(searchedBreed) {
+      let dogImageList = document.getElementById("dog-image-list")
+      let searchedDogImage = document.createElement("img")
+      searchedDogImage.src = searchedBreed
+      searchedDogImage.id = "dog-image"
+    
+      dogImageList.append(searchedDogImage)
+}
+}
+//Search breed fetch
+
 
 
 })
