@@ -100,6 +100,10 @@ html, body {
 }
 
 #dog-image {
+  max-width: 450px;
+  max-height: 450px;
+  min-width: 450px;
+  min-height: 450px;
   border-radius: 45px;
   border-style: solid;
   border-color: rgb(213, 123, 5);
@@ -145,25 +149,31 @@ html, body {
 }
 
 #breed-form {
-  line-height: 1px;
+  line-height: 10px;
 }
 
 #breedListDropdown {
+  background-color: #06dffb;
+  border: solid rgb(0, 0, 0); 
+  border-color: #000000;
   border-radius: 90px;
   width: 74%;
-  height: 80%;
+  height: 100%;
 }
 
 #breedListDropdown:hover {
-  background-color: #c1c1c1;
+  background-color: #169cae;
 }
 
 #submit-button {
+  background-color: #06dffb;
+  border: solid rgb(0, 0, 0); 
+  border-color: #000000;
   border-radius: 90px;
-  width: 65;
-  height: 80%;
+  width: 75;
+  height: 100%;
 }
 
 #submit-button:hover {
-  background-color: #c1c1c1;
+  background-color: #169cae;
 }
