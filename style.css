@@ -1,47 +1,47 @@
 html, body { 
-    width: 100%; 
-    height: 100%; 
-    margin: 0;
-    padding: 0;
+  width: 100%; 
+  height: 100%; 
+  margin: 0;
+  padding: 0;
 }
 
 #title {
-    background-image: linear-gradient(45deg, #030bfc, #ff0000);
-
-    background-size: 100%;
-    background-repeat: repeat;
-  
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-background-clip: text;
-    -moz-text-fill-color: transparent;
+  font-size: 65px;
+  background-image: linear-gradient(45deg, #030bfc, #ff0000);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
 }
 
 #main {
-    width: 100%;
-    min-height: 100vh;
-    margin: 0;
-    padding: 0;
-    background-image: url('C:/Users/marti/Pictures/zac-gudakov--UHyhmRhzrU-unsplash.jpg');
-    background-size:cover;
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-image: url('C:/Users/marti/Pictures/zac-gudakov--UHyhmRhzrU-unsplash.jpg');
+  background-size:cover;
 }
 
 #header {
-    font-size: large;
-    text-align: center;
-    padding: 20px;
-    border-bottom: solid;
-    border-bottom-color: rgb(0, 0, 0);
-    border-bottom: solid 5px rgb(0, 0, 0)
+  text-align: center;
+  padding: 20px;
+  padding-top: 1px;
+  border-bottom: solid;
+  border-bottom-color: rgb(0, 0, 0);
+  border-bottom: solid 5px rgb(0, 0, 0)
 }
 
 #searchbar {
-    border-radius: 25px;
-    padding: 20px;
-    width: 140px;
-    height: 5px;
-    background-color: #ffffff;
-    border: solid rgb(0, 0, 0); 
+  font-size: 18px;
+  border-radius: 25px;
+  padding: 20px;
+  width: 140px;
+  height: 5px;
+  background-color: #ffffff;
+  border: solid rgb(0, 0, 0); 
 }
 
 #searchbar:hover {
@@ -49,12 +49,13 @@ html, body {
 }
 
 #magnifying-glass {
-    border: solid rgb(0, 0, 0); 
-    border-radius: 25px;
-    width: 50px;
-    height: 45px;
-    background-color: #ffffff;
-    line-height: 1px;
+  font-size: 15px;
+  border: solid rgb(0, 0, 0); 
+  border-radius: 25px;
+  width: 50px;
+  height: 45px;
+  background-color: #ffffff;
+  line-height: 1px;
 }
 
 #magnifying-glass:active {
@@ -70,46 +71,72 @@ html, body {
 }
 
 #nav-bar {
-    width: 250px;
-    background-color: #ffffff;
+  font-size: 20px;
+  width: 250px;
+  background-color: #ffffff;
+  position: absolute
   }
   
 #nav-bar a.options{
-    background-color: #ffffff;
-    color: black;
-    display: block;
-    padding: 12px;
-    text-decoration: none;
+  background-color: #ffffff;
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
   }
   
 #nav-bar a.options:hover {
-    background-color: #ccc;
-    border-radius: 30px;
+  background-color: #ccc;
+  border-radius: 30px;
   }
   
 #nav-bar a.active{
-    background-color: rgb(1, 1, 0);
-    color: white;
-    display: block;
-    padding: 12px;
+  background-color: rgb(1, 1, 0);
+  color: white;
+  display: block;
+  padding: 12px;
   }
 
 #dog-image-list {
   display: flex;
   justify-content: center;
+  padding-left: 0%;
+}
+
+#breed-title span {
+  padding: 0.5em;
+  border: solid rgb(213, 123, 5);
+  background-color: rgb(120, 70, 4);;
+  border-radius: 30px;
+}
+
+#breed-title {
+  text-align: center;
+  color: #f78000;
+  border-width: 5px;
 }
 
 #dog-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
   max-width: 450px;
   max-height: 450px;
   min-width: 450px;
   min-height: 450px;
+  border-width: 5px;
   border-radius: 45px;
   border-style: solid;
   border-color: rgb(213, 123, 5);
 }
 
+#image-and-title {
+  padding-top: 80px;
+}
+
 #question-mark {
+  font-size: 18px;
   border-radius: 20px;
   padding: 20px;
   width: 200px;
@@ -138,27 +165,20 @@ html, body {
   padding-top: 55px;
 }
 
-.or-text {
-  line-height: 1px;
-}
-
 #dropdownId {
   max-height: 60px;
   overflow-y: scroll;
   size: 5;
 }
 
-#breed-form {
-  line-height: 10px;
-}
-
 #breedListDropdown {
+  font-size: 18px;
   background-color: #06dffb;
   border: solid rgb(0, 0, 0); 
   border-color: #000000;
   border-radius: 90px;
-  width: 74%;
-  height: 100%;
+  width: 70%;
+  height: 65%;
 }
 
 #breedListDropdown:hover {
@@ -166,14 +186,29 @@ html, body {
 }
 
 #submit-button {
+  font-size: 20px;
   background-color: #06dffb;
   border: solid rgb(0, 0, 0); 
   border-color: #000000;
   border-radius: 90px;
-  width: 75;
-  height: 100%;
+  width: 25%;
+  height: 60%;
 }
 
 #submit-button:hover {
   background-color: #169cae;
+}
+
+#reset-button {
+  justify-content: center;
+  font-size: 18px;
+  border-radius: 20px;
+  width: 150px;
+  height: 50px;
+  border: solid #000000;
+  background-color: #ff0000;
+}
+
+#reset-button:hover {
+  background-color: #872020;
 }

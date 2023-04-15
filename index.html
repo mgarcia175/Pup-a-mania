@@ -18,40 +18,48 @@
                 <form id="breed-form">
                     <label for="breeds"></label>
                     <select name="breeds" id="breedListDropdown">
-                        <option value="" disabled selected>Browse and select breed!</option>
+                        <option value="" disabled selected>Select breed!</option>
                     </select>
-                    <input id="submit-button" type="submit" value="Submit">
+                    <input id="submit-button" type="submit" value="&#8628">
                 </form>
 
-                <p class="or-text"><strong>OR</strong></p>
+                <h1 class="or-text">OR</h1>
 
                 <form id="search-form">
                     <input type="text" id="searchbar" name="search" placeholder="Search breed...">
                     <button type="submit" id="magnifying-glass">&#x1F50E;</button>
                 </form>
 
-                <p class="or-text"><strong>OR</strong></p>
+                <h1 class="or-text">OR</h1>
 
                 <form id="random-generate">
                     <button type="submit" id="question-mark">? Random breed ?</button>
                 </form>
+
+
+            </div>
+
+            <div>
+                <button id="reset-button">Reset!</button>
             </div>
                 
         </div>
 
         <div id="nav-bar">
             <a class="active">Menu</a>
-            <a href="#" class="options">Pictures &#128247;</a>
-            <a href="#" class="options">Breed Information &#128214;</a>
-            <a href="#" class="options">How to care &#10084;&#65039;</a>
-            <a href="#" class="options">More! &#10133;</a>
-        </div>
+            <a href="#" id="picture-button" class="options">Pictures &#128247;</a>
+            <a href="#" id="breed-info-button" class="options">Breed Information &#128214;</a>
+            <a href="#" id="how-to-button" class="options">How to care &#10084;&#65039;</a>
+            <a href="#" id="more-button" class="options">More! &#10133;</a>
+        </div> 
 
-            <ul id="dog-image-list">
-                <ol>
-                </ol>
-            </ul>
+            <div id="image-and-title">
+                <h1 id="breed-title"></h1>
 
+                <ul id="dog-image-list">
+
+                </ul>
+            </div>
     </div>
     
 

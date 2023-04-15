@@ -18,8 +18,14 @@ function materializeRandomDogImg(data) {
     let dogImg = document.createElement("img")
     dogImg.src = data
     dogImg.id = "dog-image"
-
     Ul.append(dogImg)
+
+    const breedNameURL = new URL(data)
+    const breedNameSplit = breedNameURL.pathname.split('/')[2]
+    const breedNameCap = breedNameSplit[0].toUpperCase() + breedNameSplit.substring(1)
+
+    const breedTitle = document.getElementById("breed-title")
+    breedTitle.innerHTML = '<span>' + breedNameCap + '</span>';
 }
 }
 
@@ -31,7 +37,6 @@ fetch('https://dog.ceo/api/breeds/list/all')
 }
 
 function materializeBreedNames(data) {
-
     for(let breed in data) {
 
       //Capitalized first letter in breed
@@ -66,13 +71,26 @@ function fetchBreedName(e) {
   .then(data => materializeChosenBreedImage(data.message[0]))
 }
 
-function materializeChosenBreedImage(BreedImageUrl) {
+const element = document.getElementById("breedListDropdown")
+
+document.addEventListener('click', event => {
+  const outsideClick = !element.contains(event.target)
+})
+
+function materializeChosenBreedImage(breedImageUrl) {
   let dogImageList = document.getElementById("dog-image-list")
   let dogImage = document.createElement("img")
-  dogImage.src = BreedImageUrl
+  dogImage.src = breedImageUrl
   dogImage.id = "dog-image"
 
   dogImageList.append(dogImage)
+
+  const myURL = new URL(breedImageUrl)
+  const breedNameSplit = myURL.pathname.split('/')[2]
+  const breedNameCap = breedNameSplit[0].toUpperCase() + breedNameSplit.substring(1)
+
+  const breedTitle = document.getElementById("breed-title")
+  breedTitle.innerHTML = '<span>' + breedNameCap + '</span>';
 }
 //Dropdown breed fetch
 
@@ -98,9 +116,42 @@ function fetchSearchedBreed(e) {
       searchedDogImage.id = "dog-image"
     
       dogImageList.append(searchedDogImage)
-}
+
+      const myURL = new URL(searchedBreed)
+      const breedNameSplit = myURL.pathname.split('/')[2]
+      const breedNameCap = breedNameSplit[0].toUpperCase() + breedNameSplit.substring(1)
+    
+      const breedTitle = document.getElementById("breed-title")
+      breedTitle.innerHTML = '<span>' + breedNameCap + '</span>';
+  }
 }
 //Search breed fetch
+
+//Nav buttons
+const picButton = document.getElementById("picture-button")
+const breedInfoButton = document.getElementById("breed-info-button")
+const howToButton = document.getElementById("how-to-button")
+const moreButton = document.getElementById("more-button")
+//Nav buttons
+
+//Reset button
+const resetButton = document.getElementById("reset-button")
+
+resetButton.addEventListener('click', resetPage)
+
+function resetPage(e) {
+  e.preventDefault()
+  location.reload()
+}
+//Reset button
+
+
+
+
+
+
+
+
 
 
 
