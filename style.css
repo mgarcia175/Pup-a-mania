@@ -178,21 +178,6 @@ html, body {
   background-color: #169cae;
 }
 
-#new-pic-button {
-  margin-right: 20px;
-  justify-content: center;
-  font-size: 18px;
-  border-radius: 20px;
-  width: 150px;
-  height: 50px;
-  border: solid #000000;
-  background-color: #e5ff00;
-}
-
-#new-pic-button:hover {
-  background-color: #a4b032;
-}
-
 #reset-button {
   justify-content: center;
   font-size: 18px;

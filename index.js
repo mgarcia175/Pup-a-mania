@@ -2,12 +2,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
 //Reset button
 const resetButton = document.getElementById("reset-button")
-
 resetButton.addEventListener('click', resetPage)
 
 function resetPage(e) {
-  e.preventDefault()
-  location.reload()
+  let image = document.getElementById("dog-image")
+  let imageTitle = document.getElementById("breed-title")
+
+  image.remove()
+  imageTitle.innerHTML = ''
 }
 //Reset button
 
@@ -23,11 +25,11 @@ function fetchRandomDog(e) {
   .then(data => materializeRandomDogImg(data.message))
 
   function materializeRandomDogImg(data) {
-      let Ul = document.getElementById("dog-image-list")
+      let dogImageList = document.getElementById("dog-image-list")
       let dogImg = document.createElement("img")
       dogImg.src = data
       dogImg.id = "dog-image"
-      Ul.append(dogImg)
+      dogImageList.append(dogImg)
 
       const breedNameURL = new URL(data)
       const breedNameSplit = breedNameURL.pathname.split('/')[2]
