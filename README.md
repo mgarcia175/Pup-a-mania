@@ -2,19 +2,19 @@
 Hi, and welcome to **Pup-o-mania!**
 
 ## Description
-**Pup-o-mania** is an eay-to-use application that allows you to either search for, choose or randomly generate dog breeds. Not only that, but this application also provides the user with great pictures of the generated breed, the name if the breed (in case they take a liking to it) and the ability to view multiple photos of said breed!
+**Pup-o-mania** is an easy-to-use application that allows you to either search for, choose or randomly generate dog breeds. Not only that, but this application also provides the user with great pictures of the generated breed, the name of the breed (in case they take a liking to it), and the ability to view multiple photos of said breed!
 
-There are alternatives and similar applications to mine, such as [dogtime](https://dogtime.com/dog-breeds/) or [dog.ceo](https://dog.ceo/dog-api/), but I believe my take on the idea encompasses every type of user. For example, **dogtime** simply generates a random breed. Nothing more, nothing less. **dog.ceo** is far more detailed in that it not only gives you information on the breed, but allows you to search for any breed as well. My application not only does all of this, but I have made it far more user friendly *and* expanded the utility in more ways. Finally, any and all would-be dog owners can browse dog breed pictures to get a feel of which one they fancy!
+There are alternatives and similar applications to mine, such as [dogtime](https://dogtime.com/dog-breeds/) or [dog.ceo](https://dog.ceo/dog-api/), but I believe my take on the idea encompasses every type of user. For example, **dogtime** simply generates a random breed. Nothing more, nothing less. **dog.ceo** is far more detailed in that it not only gives you information on the breed but allows you to search for any breed as well. My application not only does all of this, but I have made it far more user-friendly *and* expanded the utility in more ways. Finally, any and all would-be dog owners can browse dog breed pictures to get a feel of which one they fancy!
 
 ## Visuals
 SC/Video will go here
 
 ## Usage
-Pup-o-mania is able to assist all three types of oncomers, such as:
+Pup-o-mania can assist all three types of incomers, such as:
 
-+ Those who **know** the breed they want to search, 
++ Those who **know** the breed they want to search for, 
 + Want to **choose** from a list of all breeds, or
-+ Want to surpise themselves with a **random** breed!
++ Want to surprise themselves with a **random** breed!
 
 The application is very user-friendly, but let's go over how to use it:
 
@@ -53,12 +53,12 @@ Finally, if you want to have some fun and just see where the universe will take 
 ![Screnshot of using random breed button.](https://i.imgur.com/3N3bqLb.png)
 
 ## Support
-For any and all questions, concerns or comments, please do not hesitate to reach out to me via email!
+For any and all questions, concerns, or comments, please do not hesitate to reach out to me via email!
 
 **E**: **martingarcia804@yahoo.com**
 
 ## Roadmap
-In the future, I will most definetely be adding some features. Here is the latest list of future releases.
+In the future, I will most definitely be adding some features. Here is the latest list of future releases.
 
 - Application will also generate information on the breed
 - Application will also generate tips and guidance on how to care for the generated breed
@@ -67,7 +67,7 @@ In the future, I will most definetely be adding some features. Here is the lates
 More coming soon!..
 
 ## Authors and acknowledgment
-Many thanks go to the many communities online and the technical support agents from Flatiron, who were a tremendous help. And I am sure I speak for many programmers when I also say thank you to google!
+Many thanks go to the many communities online and the technical support agents from Flatiron, who were a tremendous help. And I am sure I speak for many programmers when I also say thank you to Google!
 
 ## License
 MIT License
