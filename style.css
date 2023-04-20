@@ -38,6 +38,10 @@ html, body {
   border-bottom: solid 5px rgb(0, 0, 0);
 }
 
+.or-text {
+  margin-top: -15px;
+}
+
 #searchbar {
   font-size: 18px;
   border-radius: 25px;
@@ -58,7 +62,7 @@ html, body {
   border: solid rgb(0, 0, 0); 
   border-radius: 25px;
   width: 50px;
-  height: 45px;
+  height: 50px;
   background-color: #ffffff;
   line-height: 1px;
   transition-duration: 0.4s;
@@ -164,7 +168,7 @@ html, body {
   border-color: #000000;
   border-radius: 90px;
   width: 70%;
-  height: 65%;
+  height: 85%;
   transition-duration: 0.4s;
 }
 
@@ -180,7 +184,7 @@ html, body {
   border-color: #000000;
   border-radius: 90px;
   width: 25%;
-  height: 60%;
+  height: 80%;
   transition-duration: 0.4s;
 }
 
