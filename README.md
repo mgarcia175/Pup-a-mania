@@ -14,6 +14,10 @@ Pup-o-mania is able to assist all three types of oncomers, such as:
 
 The application is very user-friendly, but let's go over how to use it:
 
+## Reset Button
+
+After every and all breed generations make sure to use the reset button. This will reset the application stage to make room for the next desired functionality.
+
 ## Choosing Your Breed
 This application function allows you to go into the experience not knowing much about dog breeds. Just: 
 
@@ -27,7 +31,7 @@ This application function allows you to go into the experience not knowing much 
 
 3. Say "Awwwww!"
 
-![Screenshot of generated breed.]()
+![Screenshot of generated breed.](https://i.imgur.com/0TEfpqB.png)
 
 ## Search For Breed
 
@@ -35,16 +39,41 @@ This application also allows you to search for a specific breed you already have
 
 1. Simply type in the desired breed, and click enter!
 
-![Screenshot of searching for breed.]()
+![Screenshot of searching for breed.](https://i.imgur.com/scxoydr.png)
 
 ## Random Breed
 
-Finally, if you want to have some fun and just see where the universe will take you, generate a random pup! If you take a fancy to it, jot the breed name down!
+Finally, if you want to have some fun and just see where the universe will take you: generate a random pup! If you take a fancy to it, jot the breed name down!
 
 1. Click the **? Random breed ?**  button!
 
-![Screnshot of using random breed button.]()
+![Screnshot of using random breed button.](https://i.imgur.com/3N3bqLb.png)
 
 
 ## Visuals
 SC/Video will go here
+
+
+
+## License
+MIT License
+
+Copyright (c) [2023] [Martin Garcia]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

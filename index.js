@@ -1,21 +1,21 @@
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener('DOMContentLoaded', () => {
 
 //Reset button
-const resetButton = document.getElementById("reset-button")
+const resetButton = document.getElementById('reset-button')
 resetButton.addEventListener('click', resetPage)
 
-function resetPage(e) {
-  let image = document.getElementById("dog-image")
-  let imageTitle = document.getElementById("breed-title")
+function resetPage() {
+  let image = document.getElementById('dog-image')
+  let imageTitle = document.getElementById('breed-title')
 
   image.remove()
   imageTitle.innerHTML = ''
 }
 //Reset button
 
-const randomButton = document.getElementById("random-generate")
+const randomButton = document.getElementById('random-generate')
 
-randomButton.addEventListener("submit", fetchRandomDog)
+randomButton.addEventListener('submit', fetchRandomDog)
 
 function fetchRandomDog(e) {
   e.preventDefault()
@@ -25,17 +25,17 @@ function fetchRandomDog(e) {
   .then(data => materializeRandomDogImg(data.message))
 
   function materializeRandomDogImg(data) {
-      let dogImageList = document.getElementById("dog-image-list")
-      let dogImg = document.createElement("img")
+      let dogImageList = document.getElementById('dog-image-list')
+      let dogImg = document.createElement('img')
       dogImg.src = data
-      dogImg.id = "dog-image"
+      dogImg.id = 'dog-image'
       dogImageList.append(dogImg)
 
       const breedNameURL = new URL(data)
       const breedNameSplit = breedNameURL.pathname.split('/')[2]
       const breedNameCap = breedNameSplit[0].toUpperCase() + breedNameSplit.substring(1)
 
-      const breedTitle = document.getElementById("breed-title")
+      const breedTitle = document.getElementById('breed-title')
       breedTitle.innerHTML = '<span>' + breedNameCap + '</span>'
   }
 }
@@ -54,8 +54,8 @@ function materializeBreedNames(data) {
       const breedName = (breed[0].toUpperCase() + breed.substring(1))
       //Capitalized first letter in breed
 
-      let dropDown = document.getElementById("breedListDropdown")
-      let breedCount = document.createElement("option")
+      let dropDown = document.getElementById('breedListDropdown')
+      let breedCount = document.createElement('option')
       breedCount.value = breedName
 
       breedCount.innerHTML = breedName
@@ -67,13 +67,13 @@ fetchAllBreedNames()
 //Loops for every breed name
 
 //Dropdown breed fetch
-let form = document.getElementById("breed-form")
+let form = document.getElementById('breed-form')
 
 form.addEventListener('submit', fetchBreedName)
 
 function fetchBreedName(e) {
   e.preventDefault()
-  let chosenBreed = document.getElementById("breedListDropdown")
+  let chosenBreed = document.getElementById('breedListDropdown')
   let breedName = chosenBreed.value
   breedName = breedName[0].toLowerCase() + breedName.substring(1)
 
@@ -82,17 +82,17 @@ function fetchBreedName(e) {
   .then(data => materializeChosenBreedImage(data.message[0]))
 }
 
-const dropdownElement = document.getElementById("breedListDropdown")
+const dropdownElement = document.getElementById('breedListDropdown')
 
 document.addEventListener('click', event => {
   const outsideClick = !dropdownElement.contains(event.target)
 })
 
 function materializeChosenBreedImage(breedImageUrl) {
-  let dogImageList = document.getElementById("dog-image-list")
-  let dogImage = document.createElement("img")
+  let dogImageList = document.getElementById('dog-image-list')
+  let dogImage = document.createElement('img')
   dogImage.src = breedImageUrl
-  dogImage.id = "dog-image"
+  dogImage.id = 'dog-image'
 
   dogImageList.append(dogImage)
 
@@ -100,19 +100,19 @@ function materializeChosenBreedImage(breedImageUrl) {
   const breedNameSplit = myURL.pathname.split('/')[2]
   const breedNameCap = breedNameSplit[0].toUpperCase() + breedNameSplit.substring(1)
 
-  const breedTitle = document.getElementById("breed-title")
+  const breedTitle = document.getElementById('breed-title')
   breedTitle.innerHTML = '<span>' + breedNameCap + '</span>'
 }
 //Dropdown breed fetch
 
 //Search breed fetch
-let searchForm = document.getElementById("search-form")
-searchForm.addEventListener("submit", fetchSearchedBreed)
+let searchForm = document.getElementById('search-form')
+searchForm.addEventListener('submit', fetchSearchedBreed)
 
 function fetchSearchedBreed(e) {
   e.preventDefault()
 
-  let searchValue = document.getElementById("searchbar")
+  let searchValue = document.getElementById('searchbar')
 
   let breedName = searchValue.value
 
@@ -132,10 +132,8 @@ function fetchSearchedBreed(e) {
     const breedNameSplit = myURL.pathname.split('/')[2]
     const breedNameCap = breedNameSplit[0].toUpperCase() + breedNameSplit.substring(1)
 
-    const breedTitle = document.getElementById("breed-title")
+    const breedTitle = document.getElementById('breed-title')
     breedTitle.innerHTML = '<span>' + breedNameCap + '</span>'
 }}
-
-
 
 })
