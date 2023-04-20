@@ -15,7 +15,6 @@ Pup-o-mania is able to assist all three types of oncomers, such as:
 The application is very user-friendly, but let's go over how to use it:
 
 ## Reset Button
-
 After every and all breed generations make sure to use the reset button. This will reset the application stage to make room for the next desired functionality.
 
 ## Choosing Your Breed
