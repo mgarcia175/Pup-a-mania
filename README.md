@@ -34,7 +34,7 @@ This application function allows you to go into the experience not knowing much 
 
 3. Say "Awwwww!"
 
-![Screenshot of generated breed.](https://i.imgur.com/0TEfpqB.png)
+![Screenshot of generated breed.](https://i.imgur.com/QBERfps.png)
 
 ## Search For Breed
 
@@ -42,7 +42,11 @@ This application also allows you to search for a specific breed you already have
 
 1. Simply type in the desired breed, and click enter!
 
-![Screenshot of searching for breed.](https://i.imgur.com/scxoydr.png)
+![Screenshot of searching for breed.](https://i.imgur.com/zppgD5Y.png)
+
+2. Cool pup alert!
+
+![Screenshot of poodle.](https://i.imgur.com/ASgjSjU.png)
 
 ## Random Breed
 
@@ -50,7 +54,11 @@ Finally, if you want to have some fun and just see where the universe will take 
 
 1. Click the **? Random breed ?**  button!
 
-![Screnshot of using random breed button.](https://i.imgur.com/3N3bqLb.png)
+![Screnshot of using random breed button.](https://i.imgur.com/w49AEEu.png)
+
+2. Easy peasey!
+
+![Screenshot of randomly generated dog.](https://i.imgur.com/leZybev.png)
 
 ## Support
 For any and all questions, concerns, or comments, please do not hesitate to reach out to me via email!
@@ -70,7 +78,7 @@ More coming soon!..
 Many thanks go to the many communities online and the technical support agents from Flatiron, who were a tremendous help. And I am sure I speak for many programmers when I also say thank you to Google!
 
 ## License
-MIT License
+**MIT License**
 
 Copyright (c) [2023] [Martin Garcia]
 
