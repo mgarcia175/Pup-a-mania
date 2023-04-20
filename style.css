@@ -35,7 +35,7 @@ html, body {
   padding-top: 1px;
   border-bottom: solid;
   border-bottom-color: rgb(0, 0, 0);
-  border-bottom: solid 5px rgb(0, 0, 0)
+  border-bottom: solid 5px rgb(0, 0, 0);
 }
 
 #searchbar {
@@ -45,7 +45,8 @@ html, body {
   width: 140px;
   height: 5px;
   background-color: #ffffff;
-  border: solid rgb(0, 0, 0); 
+  border: solid rgb(0, 0, 0);
+  transition-duration: 0.4s;
 }
 
 #searchbar:hover {
@@ -60,6 +61,7 @@ html, body {
   height: 45px;
   background-color: #ffffff;
   line-height: 1px;
+  transition-duration: 0.4s;
 }
 
 #magnifying-glass:active {
@@ -91,7 +93,7 @@ html, body {
   text-align: center;
   color: #f78000;
   border-width: 5px;
-  filter: drop-shadow(20px 20px 20px #353b3e)
+  filter: drop-shadow(20px 20px 20px #353b3e);
 }
 
 #dog-image {
@@ -107,7 +109,7 @@ html, body {
   border-radius: 45px;
   border-style: solid;
   border-color: rgb(213, 123, 5);
-  filter: drop-shadow(20px 20px 20px #181613)
+  filter: drop-shadow(20px 20px 20px #181613);
 }
 
 #image-and-title {
@@ -123,6 +125,7 @@ html, body {
   border: solid #000000;
   line-height: 1px;
   background-color: #06fc0a;
+  transition-duration: 0.4s;
 }
 
 #question-mark:active {
@@ -158,10 +161,12 @@ html, body {
   border-radius: 90px;
   width: 70%;
   height: 65%;
+  transition-duration: 0.4s;
 }
 
 #breedListDropdown:hover {
   background-color: #169cae;
+  transition-duration: 0.4s;
 }
 
 #submit-button {
@@ -172,6 +177,7 @@ html, body {
   border-radius: 90px;
   width: 25%;
   height: 60%;
+  transition-duration: 0.4s;
 }
 
 #submit-button:hover {
@@ -186,6 +192,7 @@ html, body {
   height: 50px;
   border: solid #000000;
   background-color: #ff0000;
+  transition-duration: 0.4s;
 }
 
 #reset-button:hover {
