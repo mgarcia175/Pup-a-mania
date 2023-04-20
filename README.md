@@ -60,6 +60,15 @@ For any and all questions, concerns or comments, please do not hesitate to reach
 ## Roadmap
 In the future, I will most definetely be adding some features. Here is the latest list of future releases.
 
+- Application will also generate information on the breed
+- Application will also generate tips and guidance on how to care for the generated breed
+- Application will also include companies, non-profits, and animal shelters that have the breed for adoption
+
+More coming soon!..
+
+## Authors and acknowledgment
+Many thanks go to the many communities online and the technical support agents from Flatiron, who were a tremendous help. And I am sure I speak for many programmers when I also say thank you to google!
+
 ## License
 MIT License
 
