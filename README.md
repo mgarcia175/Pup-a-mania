@@ -52,6 +52,9 @@ Finally, if you want to have some fun and just see where the universe will take 
 
 ![Screnshot of using random breed button.](https://i.imgur.com/3N3bqLb.png)
 
+## Support
+For any and all questions, concerns or comments, please do not hesitate to reach out to me via email!
+
 ## License
 MIT License
 
