@@ -55,6 +55,11 @@ Finally, if you want to have some fun and just see where the universe will take 
 ## Support
 For any and all questions, concerns or comments, please do not hesitate to reach out to me via email!
 
+**E**: **martingarcia804@yahoo.com**
+
+## Roadmap
+In the future, I will most definetely be adding some features. Here is the latest list of future releases.
+
 ## License
 MIT License
 
