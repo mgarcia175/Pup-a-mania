@@ -40,7 +40,7 @@ This application function allows you to go into the experience not knowing much 
 
 3. Say "Awwwww!"
 
-![Screenshot of generated breed.](https://i.imgur.com/QBERfps.png)
+![Screenshot of generated breed.](https://user-images.githubusercontent.com/116991219/233719749-ee6e2509-3220-48f4-a688-00a746e6c6e5.png)
 
 ## Search For Breed
 
