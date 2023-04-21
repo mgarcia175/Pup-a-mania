@@ -52,7 +52,7 @@ This application also allows you to search for a specific breed you already have
 
 2. Cool pup alert!
 
-![Screenshot of poodle.](https://i.imgur.com/ASgjSjU.png)
+![Screenshot of poodle.](https://user-images.githubusercontent.com/116991219/233719772-a17a9a8a-80b9-4bca-a22d-9982035fe784.png)
 
 ## Random Breed
 
