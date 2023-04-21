@@ -60,7 +60,7 @@ Finally, if you want to have some fun and just see where the universe will take 
 
 1. Click the **? Random breed ?**  button!
 
-![Screnshot of using random breed button.](https://i.imgur.com/w49AEEu.png)
+![Screenshot of using random breed button.](https://user-images.githubusercontent.com/116991219/233719835-adc773ef-8253-4361-9e9b-ce90dcf79a05.png)
 
 2. Easy peasey!
 
