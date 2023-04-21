@@ -19,10 +19,10 @@ Pup-a-mania can assist all three types of incomers, such as:
 The application is very user-friendly, but let's go over how to use it:
 
 ## Reset Button
-After every and all breed generations make sure to use the reset button. This will reset the application stage to make room for the next desired functionality.
+After every and all breed generations, make sure to use the reset button. This will reset the application stage to make room for the next desired functionality.
 
 ## Choosing Your Breed
-This application function allows you to go into the experience not knowing much about dog breeds. Just: 
+This application function allows you to go into the experience not knowing much about dog breeds. Let's do a quick walkthrough!: 
 
 1. Click and choose the one you wanna see, hit enter and your cute pup appears!
 
@@ -71,6 +71,7 @@ In the future, I will most definitely be adding some features. Here is the lates
 - Application will also generate information on the breed
 - Application will also generate tips and guidance on how to care for the generated breed
 - Application will also include companies, non-profits, and animal shelters that have the breed for adoption
+- Will add navigation bar that will scroll to the information on the generated information
 
 More coming soon!..
 
