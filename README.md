@@ -1,6 +1,6 @@
 # Pup-a-mania!
 
-Hi, and welcome to **Pup-a-mania!**
+Hi, and welcome to **Pup-a-mania!** :+1:
 
 ## Description
 
