@@ -32,7 +32,7 @@ This application function allows you to go into the experience not knowing much 
 
 1. Click and choose the one you wanna see, hit enter and your cute pup appears!
 
-![Screenshot of using the dropdown.](https://i.imgur.com/m85Vzdx.png)
+![Screenshot of using the dropdown.](https://user-images.githubusercontent.com/116991219/233719710-5399a2ea-1162-4112-80b4-747277916408.png)
 
 2. Hit enter!
 
