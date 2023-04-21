@@ -48,7 +48,7 @@ This application also allows you to search for a specific breed you already have
 
 1. Simply type in the desired breed, and click enter!
 
-![Screenshot of searching for breed.](https://i.imgur.com/zppgD5Y.png)
+![Screenshot of searching for breed.](https://user-images.githubusercontent.com/116991219/233719763-5088ea1b-d2e3-4c14-ab3f-e64e0448223c.png)
 
 2. Cool pup alert!
 
