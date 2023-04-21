@@ -58,13 +58,9 @@ This application also allows you to search for a specific breed you already have
 
 Finally, if you want to have some fun and just see where the universe will take you: generate a random pup! If you take a fancy to it, jot the breed name down!
 
-1. Click the **? Random breed ?**  button!
+1. Click the **? Random breed ?**  button and easy peasey!
 
 ![Screenshot of using random breed button.](https://user-images.githubusercontent.com/116991219/233719835-adc773ef-8253-4361-9e9b-ce90dcf79a05.png)
-
-2. Easy peasey!
-
-![Screenshot of randomly generated dog.](https://i.imgur.com/leZybev.png)
 
 ## Support
 
