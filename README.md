@@ -36,7 +36,7 @@ This application function allows you to go into the experience not knowing much 
 
 2. Hit enter!
 
-![Screenshot of hitting enter.](https://i.imgur.com/VXCcUeI.png)
+![Screenshot of hitting enter.](https://user-images.githubusercontent.com/116991219/233719720-cabd5410-89be-4a43-a1b6-a49cf2071264.png)
 
 3. Say "Awwwww!"
 
