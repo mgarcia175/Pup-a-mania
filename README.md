@@ -10,7 +10,9 @@ There are alternatives and similar applications to mine, such as [dogtime](https
 
 ## Visuals
 
-SC/Video will go here
+Project introduction - YouTube
+
+:film_strip: https://youtu.be/d-PUCAJ8wR4
 
 ## Usage
 
