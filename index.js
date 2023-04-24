@@ -50,7 +50,7 @@ function fetchAllBreedNames() {
 //Loops for every breed name
 
 function materializeBreedNames(data) {
-  for(let breed in data) {
+  Object.keys(data).forEach(breed => {
 
       //Capitalizes first letter in breed
       const breedName = (breed[0].toUpperCase() + breed.substring(1))
@@ -63,8 +63,9 @@ function materializeBreedNames(data) {
       breedCount.innerHTML = breedName
 
       dropDown.append(breedCount)
-  }
+  })
 }
+
 fetchAllBreedNames()
 //Loops for every breed name
 
